@@ -12,23 +12,18 @@ def prueba(request):
     return HttpResponse(f"La suma de {a} + {b} es igual a {c}")
 
 def pokemon_csv(request):
-    # Sabemos que estamos en directorio app_pokebattle
-    # Nuestro archivo csv está en la carpeta raiz del proyecto
-    # Vamos a obtener la ruta del archivo csv
-    # Sabemos que esta dos directorios atrás, por lo que
-    # la ruta sería ../../nombre_archivo.csv
-
-    # Obtenemos la ruta del archivo csv
-    csv_path = os.path.abspath(os.path.join(os.getcwd(), "../Pokemon - Especiales.csv"))
-
-    # Abrimos el archivo csv en modo lectura
+    csv_path = os.path.abspath(os.path.join(os.getcwd(), "../Pokemon - Físicos.csv"))
 
     with open(csv_path, "r") as pokemon_csv:
-        # Con el modulo pandas, leemos el archivo. 
-        #Esto devuelve una lista, que contiene un elemento por cada fila leida
         df = pd.read_csv(pokemon_csv)
-        print(df)
-        return HttpResponse(df.to_html())
+        cabecera = df.columns.tolist()
+        fila_leida = df.iloc[0].tolist()
+        atributos_pkm = dict(zip(cabecera, fila_leida))
+        print(atributos_pkm)
+        #print(' '.join(map(str, cabecera)))
+        #print(' '.join(map(str, fila_leida.values))) 
+    
+        return HttpResponse(atributos_pkm)#and ' '.join(map(str, fila_leida.values)))
         
 def showdown(request):
     r = requests.get("https://play.pokemonshowdown.com/teambuilder")
@@ -36,6 +31,10 @@ def showdown(request):
     return HttpResponse("none")
 
 def clases_pokemon(request):
-    r = classpkm.hola()
+    pkm1 = input("Qué pokemon quieres?")
+    pkm2 = input("Qué pokemon quieres?")
+    pkm3 = input("Qué pokemon quieres?")
+    #pkm3 = input("Qué pokemon quieres?")
+    r = classpkm.__main__(pkm1, pkm2, pkm3) #pkm2, pkm3)
     return HttpResponse(r)
 
