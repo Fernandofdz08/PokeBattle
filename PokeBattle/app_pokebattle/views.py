@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-import os, csv, pandas as pd
-
+import os, csv, requests, pandas as pd
+from . import classpkm
 # Create your views here.
 
 def prueba(request):
@@ -30,3 +30,12 @@ def pokemon_csv(request):
         print(df)
         return HttpResponse(df.to_html())
         
+def showdown(request):
+    r = requests.get("https://play.pokemonshowdown.com/teambuilder")
+    print(r.text)
+    return HttpResponse("none")
+
+def clases_pokemon(request):
+    r = classpkm.hola()
+    return HttpResponse(r)
+
