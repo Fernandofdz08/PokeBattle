@@ -1,6 +1,5 @@
 import os, pandas as pd
-
-
+import random
 
 class Pokemon:
 
@@ -25,11 +24,37 @@ class Pokemon:
         self.At4 = At4
         self.TypeAt4 = TypeAt4
         self.Is_Teratype = Is_Teratype"""
+    
     def __init__(self, **kwargs):
         for key, value in kwargs.items():
             setattr(self, key, value)
+    
+def damage(allies, enemies):
+    # Valor de bonificación, si esta teracristalizado, si tanto su tipo original como su teratipo coinciden con el tipo del ataque
+    # la bonificación es de 2, si solo coincide su tipo original, la bonificación es de 1.5, si no coincide ninguno, la bonificación es de 1, si no esta teracristalizado
+    # si el ataque es del mismo tipo que el pokemon que lo lanza oma valor 1.5, si el ataque es de un tipo diferente al del pokemon que lo lanza toma un valor de 1. 
+    # 
+
+    if allies.isTeraType == True: 
+        if allies.type1 == allies.teratype and allies.type2 == allies.teratype:
+            bonif = 2
+        elif allies.type1 == allies.teratype or allies.type2 == allies.teratype:
+            bonif = 1.5
+        else:
+            bonif = 1
+
+    # La efectividad vendrá dada por la tabla de tipos, por el momento, por pruebas se establece en 1
+    Efectivity = 1
+    # La variación vendrá dada por un número aleatorio entre 85 y 100
+    Variation =  random.randint(85,100)
+    # Nivel del pokemon, por defecto, todos en 100
+    Level = 100
+    
+
+    #Daño = 0.01 * Bonif * Efectivity * Variation ( between 85 and 100) *(((0.2 * Level + 1) * Attack * Power) / (25 * Defense) + 2)
 
 
+    
 
 
 #############
@@ -51,15 +76,15 @@ def read_csv(nombre_pkm1):
         return atributos_pkm
 
 def __main__(*args):
-    pokemons_aliados = []
+    pokemons_escogidos = []
     for variable in args:
         atributos_pkm = read_csv(variable)
         pkm = Pokemon(**atributos_pkm)
-        pokemons_aliados.append(pkm)
+        pokemons_escogidos.append(pkm)
     
-    pokemons_aliado_1 = pokemons_aliados[0]
-    pokemons_aliado_2 = pokemons_aliados[1]
-    pokemons_aliado_3 = pokemons_aliados[2]
-    print(pokemons_aliado_1.name)
-    print(pokemons_aliado_2.name)
-    print(pokemons_aliado_3.name)
+    pokemons_aliado_1 = pokemons_escogidos[0]
+    pokemons_enemigo_2 = pokemons_escogidos[1]
+    #pokemons_aliado_3 = pokemons_aliados[2]
+    r = damage(pokemons_aliado_1, pokemons_enemigo_2)
+
+    
