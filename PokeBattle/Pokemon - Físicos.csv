@@ -1,6 +1,6 @@
-name,type1,type2,PS,At,Def,At. Esp,Def. Esp,Vel,Hability,Object,At1,TypeAt1,At2,TypeAt2,At3,TypeAt3,At4,TypeAt4,Teratype,Is_Teratype
-Deoxys,Psíquico,null,241,504,77,356,76,399,Presión,Banda Focus,Cabezazo Zen,Psíquico,Puño Fuego,Fuego,Puño Drenaje,Lucha,Desarme,Siniestro,Psíquico,FALSE
-Regigigas,Normal,null,424,460,257,174,256,236,Inicio Lento,,Imagen,,Desarme,,Onda Trueno,,Protección,,,
+name,type1,type2,PS,At,Def,AtEsp,DefEsp,Vel,Hability,Object,At1,TypeAt1,At2,TypeAt2,At3,TypeAt3,At4,TypeAt4,Teratype,Is_Teratype
+Deoxys,Psíquico,null,241,504,77,356,76,399,Presión,Banda Focus,Zen Headbutt,phisical,Fire Punch,Fuego,Drain Punch,Lucha,Knock Off,Siniestro,Psíquico,FALSE
+Regigigas,Normal,null,424,460,257,174,256,236,Inicio Lento,,Facade,Normal,Knockoff,Siniestro,Thunder Wave,Electrico,Protect,Normal,Normal,FALSE
 Rayquaza,Dragón,Volador,352,438,216,286,216,289,Esclusa de Aire,,Enfado,,Ascenso Draco,,Velocidad Extrema,,Danza Dragón,,,
 Zekrom,Dragón,Eléctrico,341,438,277,236,236,279,Terravoltaje,,Enfado,,Ataque Fulgor,,Cabezazo Zen,,Danza Dragón,,,
 Haxorus,Dragón,null,294,432,216,124,176,293,Rompemoldes,,Garra Dragón,,Cabeza de Hierro,,(Falso Tortazo),,Danza Dragón,,,
@@ -169,7 +169,6 @@ Azumarill,Agua,Hada,404,218,196,131,197,136,Potencia,,Acua Cola,,Carantoña,,Fue
 Bronzong,Acero,Psíquico,338,214,364,185,269,63,Levitación,,,,,,,,,,,
 Registeel,Acero,null,364,204,367,167,368,136,Cuerpo Puro,,,,,,,,,,,
 Volbeat,Bicho,null,334,182,186,117,206,295,Iluminación,,,,,,,,,,,
-Deoxys,Psíquico,null,304,176,460,158,357,216,Presión,,,,,,,,,,,
 Altaria,Dragón,Volador,354,176,287,158,265,196,Cura Natural,,,,,,,,,,,
 Dachsbun,Hada,null,235,176,355,136,240,226,Cuerpo Horneado,,,,,,,,,,,
 Toxapex,Veneno,Agua,304,162,388,127,369,106,Flexibilidad,,,,,,,,,,,

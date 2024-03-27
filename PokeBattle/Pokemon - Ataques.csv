@@ -1,0 +1,935 @@
+nombre_ataques;tipo_ataques;especial_fisico;potencia;precision_ataques
+10,000,000 Volt Thunderbolt;Electric;special;195;—
+Absorb;Grass;special;20;100
+Accelerock;Rock;physical;40;100
+Acid;Poison;special;40;100
+Acid Armor;Poison;status;—;—
+Acid Downpour;Poison;;—;—
+Acid Spray;Poison;special;40;100
+Acrobatics;Flying;physical;55;100
+Acupressure;Normal;status;—;—
+Aerial Ace;Flying;physical;60;∞
+Aeroblast;Flying;special;100;95
+After You;Normal;status;—;—
+Agility;Psychic;status;—;—
+Air Cutter;Flying;special;60;95
+Air Slash;Flying;special;75;95
+All-Out Pummeling;Fighting;;—;—
+Alluring Voice;Fairy;special;80;100
+Ally Switch;Psychic;status;—;—
+Amnesia;Psychic;status;—;—
+Anchor Shot;Steel;physical;80;100
+Ancient Power;Rock;special;60;100
+Apple Acid;Grass;special;80;100
+Aqua Cutter;Water;physical;70;100
+Aqua Jet;Water;physical;40;100
+Aqua Ring;Water;status;—;—
+Aqua Step;Water;physical;80;100
+Aqua Tail;Water;physical;90;90
+Arm Thrust;Fighting;physical;15;100
+Armor Cannon;Fire;special;120;100
+Aromatherapy;Grass;status;—;—
+Aromatic Mist;Fairy;status;—;—
+Assist;Normal;status;—;—
+Assurance;Dark;physical;60;100
+Astonish;Ghost;physical;30;100
+Astral Barrage;Ghost;special;120;100
+Attack Order;Bug;physical;90;100
+Attract;Normal;status;—;100
+Aura Sphere;Fighting;special;80;∞
+Aura Wheel;Electric;physical;110;100
+Aurora Beam;Ice;special;65;100
+Aurora Veil;Ice;status;—;—
+Autotomize;Steel;status;—;—
+Avalanche;Ice;physical;60;100
+Axe Kick;Fighting;physical;120;90
+Baby-Doll Eyes;Fairy;status;—;100
+Baddy Bad;Dark;special;90;100
+Baneful Bunker;Poison;status;—;—
+Barb Barrage;Poison;physical;60;100
+Barrage;Normal;physical;15;85
+Barrier;Psychic;status;—;—
+Baton Pass;Normal;status;—;—
+Beak Blast;Flying;physical;100;100
+Beat Up;Dark;physical;—;100
+Behemoth Bash;Steel;physical;100;100
+Behemoth Blade;Steel;physical;100;100
+Belch;Poison;special;120;90
+Belly Drum;Normal;status;—;—
+Bestow;Normal;status;—;—
+Bide;Normal;physical;—;—
+Bind;Normal;physical;15;85
+Bite;Dark;physical;60;100
+Bitter Blade;Fire;physical;90;100
+Bitter Malice;Ghost;special;75;100
+Black Hole Eclipse;Dark;;—;—
+Blast Burn;Fire;special;150;90
+Blaze Kick;Fire;physical;85;90
+Blazing Torque;Fire;physical;80;100
+Bleakwind Storm;Flying;special;100;80
+Blizzard;Ice;special;110;70
+Block;Normal;status;—;—
+Blood Moon;;;—;—
+Bloom Doom;Grass;;—;—
+Blue Flare;Fire;special;130;85
+Body Press;Fighting;physical;80;100
+Body Slam;Normal;physical;85;100
+Bolt Beak;Electric;physical;85;100
+Bolt Strike;Electric;physical;130;85
+Bone Club;Ground;physical;65;85
+Bone Rush;Ground;physical;25;90
+Bonemerang;Ground;physical;50;90
+Boomburst;Normal;special;140;100
+Bounce;Flying;physical;85;85
+Bouncy Bubble;Water;special;90;100
+Branch Poke;Grass;physical;40;100
+Brave Bird;Flying;physical;120;100
+Breaking Swipe;Dragon;physical;60;100
+Breakneck Blitz;Normal;;—;—
+Brick Break;Fighting;physical;75;100
+Brine;Water;special;65;100
+Brutal Swing;Dark;physical;60;100
+Bubble;Water;special;40;100
+Bubble Beam;Water;special;65;100
+Bug Bite;Bug;physical;60;100
+Bug Buzz;Bug;special;90;100
+Bulk Up;Fighting;status;—;—
+Bulldoze;Ground;physical;60;100
+Bullet Punch;Steel;physical;40;100
+Bullet Seed;Grass;physical;25;100
+Burn Up;Fire;special;130;100
+Burning Bulwark;Fire;status;—;∞
+Burning Jealousy;Fire;special;70;100
+Buzzy Buzz;Electric;special;90;100
+Calm Mind;Psychic;status;—;—
+Camouflage;Normal;status;—;—
+Captivate;Normal;status;—;100
+Catastropika;Electric;physical;210;—
+Ceaseless Edge;Dark;physical;65;90
+Celebrate;Normal;status;—;—
+Charge;Electric;status;—;—
+Charge Beam;Electric;special;50;90
+Charm;Fairy;status;—;100
+Chatter;Flying;special;65;100
+Chilling Water;Water;special;50;100
+Chilly Reception;Ice;status;—;—
+Chip Away;Normal;physical;70;100
+Chloroblast;Grass;special;150;95
+Circle Throw;Fighting;physical;60;90
+Clamp;Water;physical;35;85
+Clanging Scales;Dragon;special;110;100
+Clangorous Soul;Dragon;status;—;100
+Clangorous Soulblaze;Dragon;special;185;—
+Clear Smog;Poison;special;50;—
+Close Combat;Fighting;physical;120;100
+Coaching;Fighting;status;—;—
+Coil;Poison;status;—;—
+Collision Course;Fighting;physical;100;100
+Combat Torque;Fighting;physical;100;100
+Comet Punch;Normal;physical;18;85
+Comeuppance;Dark;physical;1;100
+Confide;Normal;status;—;—
+Confuse Ray;Ghost;status;—;100
+Confusion;Psychic;special;50;100
+Constrict;Normal;physical;10;100
+Continental Crush;Rock;;—;—
+Conversion;Normal;status;—;—
+Conversion 2;Normal;status;—;—
+Copycat;Normal;status;—;—
+Core Enforcer;Dragon;special;100;100
+Corkscrew Crash;Steel;;—;—
+Corrosive Gas;Poison;status;—;100
+Cosmic Power;Psychic;status;—;—
+Cotton Guard;Grass;status;—;—
+Cotton Spore;Grass;status;—;100
+Counter;Fighting;physical;—;100
+Court Change;Normal;status;—;100
+Covet;Normal;physical;60;100
+Crabhammer;Water;physical;100;90
+Crafty Shield;Fairy;status;—;—
+Cross Chop;Fighting;physical;100;80
+Cross Poison;Poison;physical;70;100
+Crunch;Dark;physical;80;100
+Crush Claw;Normal;physical;75;95
+Crush Grip;Normal;physical;—;100
+Curse;Ghost;status;—;—
+Cut;Normal;physical;50;95
+Dark Pulse;Dark;special;80;100
+Dark Void;Dark;status;—;50
+Darkest Lariat;Dark;physical;85;100
+Dazzling Gleam;Fairy;special;80;100
+Decorate;Fairy;status;—;—
+Defend Order;Bug;status;—;—
+Defense Curl;Normal;status;—;—
+Defog;Flying;status;—;—
+Destiny Bond;Ghost;status;—;—
+Detect;Fighting;status;—;—
+Devastating Drake;Dragon;;—;—
+Diamond Storm;Rock;physical;100;95
+Dig;Ground;physical;80;100
+Dire Claw;Poison;physical;80;100
+Disable;Normal;status;—;100
+Disarming Voice;Fairy;special;40;∞
+Discharge;Electric;special;80;100
+Dive;Water;physical;80;100
+Dizzy Punch;Normal;physical;70;100
+Doodle;Normal;status;—;100
+Doom Desire;Steel;special;140;100
+Double Hit;Normal;physical;35;90
+Double Iron Bash;Steel;physical;60;100
+Double Kick;Fighting;physical;30;100
+Double Shock;Electric;physical;120;100
+Double Slap;Normal;physical;15;85
+Double Team;Normal;status;—;—
+Double-Edge;Normal;physical;120;100
+Draco Meteor;Dragon;special;130;90
+Dragon Ascent;Flying;physical;120;100
+Dragon Breath;Dragon;special;60;100
+Dragon Cheer;Dragon;status;—;∞
+Dragon Claw;Dragon;physical;80;100
+Dragon Dance;Dragon;status;—;—
+Dragon Darts;Dragon;physical;50;100
+Dragon Energy;Dragon;special;150;100
+Dragon Hammer;Dragon;physical;90;100
+Dragon Pulse;Dragon;special;85;100
+Dragon Rage;Dragon;special;—;100
+Dragon Rush;Dragon;physical;100;75
+Dragon Tail;Dragon;physical;60;90
+Drain Punch;Fighting;physical;75;100
+Draining Kiss;Fairy;special;50;100
+Dream Eater;Psychic;special;100;100
+Drill Peck;Flying;physical;80;100
+Drill Run;Ground;physical;80;95
+Drum Beating;Grass;physical;80;100
+Dual Chop;Dragon;physical;40;90
+Dual Wingbeat;Flying;physical;40;90
+Dynamax Cannon;Dragon;special;100;100
+Dynamic Punch;Fighting;physical;100;50
+Earth Power;Ground;special;90;100
+Earthquake;Ground;physical;100;100
+Echoed Voice;Normal;special;40;100
+Eerie Impulse;Electric;status;—;100
+Eerie Spell;Psychic;special;80;100
+Egg Bomb;Normal;physical;100;75
+Electric Terrain;Electric;status;—;—
+Electrify;Electric;status;—;—
+Electro Ball;Electric;special;—;100
+Electro Drift;Electric;special;100;100
+Electro Shot;Electric;special;130;100
+Electroweb;Electric;special;55;95
+Embargo;Dark;status;—;100
+Ember;Fire;special;40;100
+Encore;Normal;status;—;100
+Endeavor;Normal;physical;—;100
+Endure;Normal;status;—;—
+Energy Ball;Grass;special;90;100
+Entrainment;Normal;status;—;100
+Eruption;Fire;special;150;100
+Esper Wing;Psychic;special;80;100
+Eternabeam;Dragon;special;160;90
+Expanding Force;Psychic;special;80;100
+Explosion;Normal;physical;250;100
+Extrasensory;Psychic;special;80;100
+Extreme Evoboost;Normal;status;—;—
+Extreme Speed;Normal;physical;80;100
+Facade;Normal;physical;70;100
+Fairy Lock;Fairy;status;—;—
+Fairy Wind;Fairy;special;40;100
+Fake Out;Normal;physical;40;100
+Fake Tears;Dark;status;—;100
+False Surrender;Dark;physical;80;∞
+False Swipe;Normal;physical;40;100
+Feather Dance;Flying;status;—;100
+Feint;Normal;physical;30;100
+Feint Attack;Dark;physical;60;∞
+Fell Stinger;Bug;physical;50;100
+Fickle Beam;Dragon;special;80;100
+Fiery Dance;Fire;special;80;100
+Fiery Wrath;Dark;special;90;100
+Fillet Away;Normal;status;—;—
+Final Gambit;Fighting;special;—;100
+Fire Blast;Fire;special;110;85
+Fire Fang;Fire;physical;65;95
+Fire Lash;Fire;physical;80;100
+Fire Pledge;Fire;special;80;100
+Fire Punch;Fire;physical;75;100
+Fire Spin;Fire;special;35;85
+First Impression;Bug;physical;90;100
+Fishious Rend;Water;physical;85;100
+Fissure;Ground;physical;—;30
+Flail;Normal;physical;—;100
+Flame Burst;Fire;special;70;100
+Flame Charge;Fire;physical;50;100
+Flame Wheel;Fire;physical;60;100
+Flamethrower;Fire;special;90;100
+Flare Blitz;Fire;physical;120;100
+Flash;Normal;status;—;100
+Flash Cannon;Steel;special;80;100
+Flatter;Dark;status;—;100
+Fleur Cannon;Fairy;special;130;90
+Fling;Dark;physical;—;100
+Flip Turn;Water;physical;60;100
+Floaty Fall;Flying;physical;90;95
+Floral Healing;Fairy;status;—;—
+Flower Shield;Fairy;status;—;—
+Flower Trick;Grass;physical;70;∞
+Fly;Flying;physical;90;95
+Flying Press;Fighting;physical;100;95
+Focus Blast;Fighting;special;120;70
+Focus Energy;Normal;status;—;—
+Focus Punch;Fighting;physical;150;100
+Follow Me;Normal;status;—;—
+Force Palm;Fighting;physical;60;100
+Foresight;Normal;status;—;—
+Forest's Curse;Grass;status;—;100
+Foul Play;Dark;physical;95;100
+Freeze Shock;Ice;physical;140;90
+Freeze-Dry;Ice;special;70;100
+Freezing Glare;Psychic;special;90;100
+Freezy Frost;Ice;special;90;100
+Frenzy Plant;Grass;special;150;90
+Frost Breath;Ice;special;60;90
+Frustration;Normal;physical;—;100
+Fury Attack;Normal;physical;15;85
+Fury Cutter;Bug;physical;40;95
+Fury Swipes;Normal;physical;18;80
+Fusion Bolt;Electric;physical;100;100
+Fusion Flare;Fire;special;100;100
+Future Sight;Psychic;special;120;100
+G-Max Befuddle;Bug;;—;∞
+G-Max Cannonade;Water;;—;∞
+G-Max Centiferno;Fire;;—;∞
+G-Max Chi Strike;Fighting;;—;∞
+G-Max Cuddle;Normal;;—;∞
+G-Max Depletion;Dragon;;—;∞
+G-Max Drum Solo;Grass;;160;∞
+G-Max Finale;Fairy;;—;∞
+G-Max Fireball;Fire;;160;∞
+G-Max Foam Burst;Water;;—;∞
+G-Max Gold Rush;Normal;;—;∞
+G-Max Gravitas;Psychic;;—;∞
+G-Max Hydrosnipe;Water;;160;∞
+G-Max Malodor;Poison;;—;∞
+G-Max Meltdown;Steel;;—;∞
+G-Max One Blow;Dark;;—;∞
+G-Max Rapid Flow;Water;;—;∞
+G-Max Replenish;Normal;;—;∞
+G-Max Resonance;Ice;;—;∞
+G-Max Sandblast;Ground;;—;∞
+G-Max Smite;Fairy;;—;∞
+G-Max Snooze;Dark;;—;∞
+G-Max Steelsurge;Steel;;—;∞
+G-Max Stonesurge;Water;;—;∞
+G-Max Stun Shock;Electric;;—;∞
+G-Max Sweetness;Grass;;—;∞
+G-Max Tartness;Grass;;—;∞
+G-Max Terror;Ghost;;—;∞
+G-Max Vine Lash;Grass;;—;∞
+G-Max Volcalith;Rock;;—;∞
+G-Max Volt Crash;Electric;;—;∞
+G-Max Wildfire;Fire;;—;∞
+G-Max Wind Rage;Flying;;—;∞
+Gastro Acid;Poison;status;—;100
+Gear Grind;Steel;physical;50;85
+Gear Up;Steel;status;—;—
+Genesis Supernova;Psychic;special;185;—
+Geomancy;Fairy;status;—;—
+Giga Drain;Grass;special;75;100
+Giga Impact;Normal;physical;150;90
+Gigaton Hammer;Steel;physical;160;100
+Gigavolt Havoc;Electric;;—;—
+Glacial Lance;Ice;physical;120;100
+Glaciate;Ice;special;65;95
+Glaive Rush;Dragon;physical;120;100
+Glare;Normal;status;—;100
+Glitzy Glow;Psychic;special;90;100
+Grass Knot;Grass;special;—;100
+Grass Pledge;Grass;special;80;100
+Grass Whistle;Grass;status;—;55
+Grassy Glide;Grass;physical;60;100
+Grassy Terrain;Grass;status;—;—
+Grav Apple;Grass;physical;80;100
+Gravity;Psychic;status;—;—
+Growl;Normal;status;—;100
+Growth;Normal;status;—;—
+Grudge;Ghost;status;—;—
+Guard Split;Psychic;status;—;—
+Guard Swap;Psychic;status;—;—
+Guardian of Alola;Fairy;special;—;—
+Guillotine;Normal;physical;—;30
+Gunk Shot;Poison;physical;120;80
+Gust;Flying;special;40;100
+Gyro Ball;Steel;physical;—;100
+Hail;Ice;status;—;—
+Hammer Arm;Fighting;physical;100;90
+Happy Hour;Normal;status;—;—
+Hard Press;Steel;physical;—;100
+Harden;Normal;status;—;—
+Haze;Ice;status;—;—
+Head Charge;Normal;physical;120;100
+Head Smash;Rock;physical;150;80
+Headbutt;Normal;physical;70;100
+Headlong Rush;Ground;physical;120;100
+Heal Bell;Normal;status;—;—
+Heal Block;Psychic;status;—;100
+Heal Order;Bug;status;—;—
+Heal Pulse;Psychic;status;—;—
+Healing Wish;Psychic;status;—;—
+Heart Stamp;Psychic;physical;60;100
+Heart Swap;Psychic;status;—;—
+Heat Crash;Fire;physical;—;100
+Heat Wave;Fire;special;95;90
+Heavy Slam;Steel;physical;—;100
+Helping Hand;Normal;status;—;—
+Hex;Ghost;special;65;100
+Hidden Power;Normal;special;60;100
+High Horsepower;Ground;physical;95;95
+High Jump Kick;Fighting;physical;130;90
+Hold Back;Normal;physical;40;100
+Hold Hands;Normal;status;—;—
+Hone Claws;Dark;status;—;—
+Horn Attack;Normal;physical;65;100
+Horn Drill;Normal;physical;—;30
+Horn Leech;Grass;physical;75;100
+Howl;Normal;status;—;—
+Hurricane;Flying;special;110;70
+Hydro Cannon;Water;special;150;90
+Hydro Pump;Water;special;110;80
+Hydro Steam;Water;special;80;100
+Hydro Vortex;Water;;—;—
+Hyper Beam;Normal;special;150;90
+Hyper Drill;Normal;physical;100;100
+Hyper Fang;Normal;physical;80;90
+Hyper Voice;Normal;special;90;100
+Hyperspace Fury;Dark;physical;100;∞
+Hyperspace Hole;Psychic;special;80;∞
+Hypnosis;Psychic;status;—;60
+Ice Ball;Ice;physical;30;90
+Ice Beam;Ice;special;90;100
+Ice Burn;Ice;special;140;90
+Ice Fang;Ice;physical;65;95
+Ice Hammer;Ice;physical;100;90
+Ice Punch;Ice;physical;75;100
+Ice Shard;Ice;physical;40;100
+Ice Spinner;Ice;physical;80;100
+Icicle Crash;Ice;physical;85;90
+Icicle Spear;Ice;physical;25;100
+Icy Wind;Ice;special;55;95
+Imprison;Psychic;status;—;—
+Incinerate;Fire;special;60;100
+Infernal Parade;Ghost;special;60;100
+Inferno;Fire;special;100;50
+Inferno Overdrive;Fire;;—;—
+Infestation;Bug;special;20;100
+Ingrain;Grass;status;—;—
+Instruct;Psychic;status;—;—
+Ion Deluge;Electric;status;—;—
+Iron Defense;Steel;status;—;—
+Iron Head;Steel;physical;80;100
+Iron Tail;Steel;physical;100;75
+Ivy Cudgel;;;—;—
+Jaw Lock;Dark;physical;80;100
+Jet Punch;Water;physical;60;100
+Judgment;Normal;special;100;100
+Jump Kick;Fighting;physical;100;95
+Jungle Healing;Grass;status;—;—
+Karate Chop;Fighting;physical;50;100
+Kinesis;Psychic;status;—;80
+King's Shield;Steel;status;—;—
+Knock Off;Dark;physical;65;100
+Kowtow Cleave;Dark;physical;85;∞
+Land's Wrath;Ground;physical;90;100
+Laser Focus;Normal;status;—;—
+Lash Out;Dark;physical;75;100
+Last Resort;Normal;physical;140;100
+Last Respects;Ghost;physical;50;100
+Lava Plume;Fire;special;80;100
+Leaf Blade;Grass;physical;90;100
+Leaf Storm;Grass;special;130;90
+Leaf Tornado;Grass;special;65;90
+Leafage;Grass;physical;40;100
+Leech Life;Bug;physical;80;100
+Leech Seed;Grass;status;—;90
+Leer;Normal;status;—;100
+Let's Snuggle Forever;Fairy;physical;190;—
+Lick;Ghost;physical;30;100
+Life Dew;Water;status;—;—
+Light of Ruin;Fairy;special;140;90
+Light Screen;Psychic;status;—;—
+Light That Burns the Sky;Psychic;special;200;—
+Liquidation;Water;physical;85;100
+Lock-On;Normal;status;—;—
+Lovely Kiss;Normal;status;—;75
+Low Kick;Fighting;physical;—;100
+Low Sweep;Fighting;physical;65;100
+Lucky Chant;Normal;status;—;—
+Lumina Crash;Psychic;special;80;100
+Lunar Blessing;Psychic;status;—;—
+Lunar Dance;Psychic;status;—;—
+Lunge;Bug;physical;80;100
+Luster Purge;Psychic;special;70;100
+Mach Punch;Fighting;physical;40;100
+Magic Coat;Psychic;status;—;—
+Magic Powder;Psychic;status;—;100
+Magic Room;Psychic;status;—;—
+Magical Leaf;Grass;special;60;∞
+Magical Torque;Fairy;physical;100;100
+Magma Storm;Fire;special;100;75
+Magnet Bomb;Steel;physical;60;∞
+Magnet Rise;Electric;status;—;—
+Magnetic Flux;Electric;status;—;—
+Magnitude;Ground;physical;—;100
+Make It Rain;Steel;special;120;100
+Malicious Moonsault;Dark;physical;180;—
+Malignant Chain;Poison;special;100;100
+Mat Block;Fighting;status;—;—
+Matcha Gotcha;;;—;—
+Max Airstream;Flying;;—;—
+Max Darkness;Dark;;—;—
+Max Flare;Fire;;—;—
+Max Flutterby;Bug;;—;—
+Max Geyser;Water;;—;—
+Max Guard;Normal;;—;—
+Max Hailstorm;Ice;;—;—
+Max Knuckle;Fighting;;—;—
+Max Lightning;Electric;;—;—
+Max Mindstorm;Psychic;;—;—
+Max Ooze;Poison;;—;—
+Max Overgrowth;Grass;;—;—
+Max Phantasm;Ghost;;—;—
+Max Quake;Ground;;—;—
+Max Rockfall;Rock;;—;—
+Max Starfall;Fairy;;—;—
+Max Steelspike;Steel;;—;—
+Max Strike;Normal;;—;—
+Max Wyrmwind;Dragon;;—;—
+Me First;Normal;status;—;—
+Mean Look;Normal;status;—;—
+Meditate;Psychic;status;—;—
+Mega Drain;Grass;special;40;100
+Mega Kick;Normal;physical;120;75
+Mega Punch;Normal;physical;80;85
+Megahorn;Bug;physical;120;85
+Memento;Dark;status;—;100
+Menacing Moonraze Maelstrom;Ghost;special;200;—
+Metal Burst;Steel;physical;—;100
+Metal Claw;Steel;physical;50;95
+Metal Sound;Steel;status;—;85
+Meteor Assault;Fighting;physical;150;100
+Meteor Beam;Rock;special;120;90
+Meteor Mash;Steel;physical;90;90
+Metronome;Normal;status;—;—
+Mighty Cleave;Rock;physical;95;100
+Milk Drink;Normal;status;—;—
+Mimic;Normal;status;—;—
+Mind Blown;Fire;special;150;100
+Mind Reader;Normal;status;—;—
+Minimize;Normal;status;—;—
+Miracle Eye;Psychic;status;—;—
+Mirror Coat;Psychic;special;—;100
+Mirror Move;Flying;status;—;—
+Mirror Shot;Steel;special;65;85
+Mist;Ice;status;—;—
+Mist Ball;Psychic;special;70;100
+Misty Explosion;Fairy;special;100;100
+Misty Terrain;Fairy;status;—;—
+Moonblast;Fairy;special;95;100
+Moongeist Beam;Ghost;special;100;100
+Moonlight;Fairy;status;—;—
+Morning Sun;Normal;status;—;—
+Mortal Spin;Poison;physical;30;100
+Mountain Gale;Ice;physical;100;85
+Mud Bomb;Ground;special;65;85
+Mud Shot;Ground;special;55;95
+Mud Sport;Ground;status;—;—
+Mud-Slap;Ground;special;20;100
+Muddy Water;Water;special;90;85
+Multi-Attack;Normal;physical;120;100
+Mystical Fire;Fire;special;75;100
+Mystical Power;Psychic;special;70;90
+Nasty Plot;Dark;status;—;—
+Natural Gift;Normal;physical;—;100
+Nature Power;Normal;status;—;—
+Nature's Madness;Fairy;special;—;90
+Needle Arm;Grass;physical;60;100
+Never-Ending Nightmare;Ghost;;—;—
+Night Daze;Dark;special;85;95
+Night Shade;Ghost;special;—;100
+Night Slash;Dark;physical;70;100
+Nightmare;Ghost;status;—;100
+No Retreat;Fighting;status;—;—
+Noble Roar;Normal;status;—;100
+Noxious Torque;Poison;physical;100;100
+Nuzzle;Electric;physical;20;100
+Oblivion Wing;Flying;special;80;100
+Obstruct;Dark;status;—;100
+Oceanic Operetta;Water;special;195;—
+Octazooka;Water;special;65;85
+Octolock;Fighting;status;—;100
+Odor Sleuth;Normal;status;—;—
+Ominous Wind;Ghost;special;60;100
+Order Up;Dragon;physical;80;100
+Origin Pulse;Water;special;110;85
+Outrage;Dragon;physical;120;100
+Overdrive;Electric;special;80;100
+Overheat;Fire;special;130;90
+Pain Split;Normal;status;—;—
+Parabolic Charge;Electric;special;65;100
+Parting Shot;Dark;status;—;100
+Pay Day;Normal;physical;40;100
+Payback;Dark;physical;50;100
+Peck;Flying;physical;35;100
+Perish Song;Normal;status;—;—
+Petal Blizzard;Grass;physical;90;100
+Petal Dance;Grass;special;120;100
+Phantom Force;Ghost;physical;90;100
+Photon Geyser;Psychic;special;100;100
+Pika Papow;Electric;special;—;∞
+Pin Missile;Bug;physical;25;95
+Plasma Fists;Electric;physical;100;100
+Play Nice;Normal;status;—;—
+Play Rough;Fairy;physical;90;90
+Pluck;Flying;physical;60;100
+Poison Fang;Poison;physical;50;100
+Poison Gas;Poison;status;—;90
+Poison Jab;Poison;physical;80;100
+Poison Powder;Poison;status;—;75
+Poison Sting;Poison;physical;15;100
+Poison Tail;Poison;physical;50;100
+Pollen Puff;Bug;special;90;100
+Poltergeist;Ghost;physical;110;90
+Population Bomb;Normal;physical;20;90
+Pounce;Bug;physical;50;100
+Pound;Normal;physical;40;100
+Powder;Bug;status;—;100
+Powder Snow;Ice;special;40;100
+Power Gem;Rock;special;80;100
+Power Shift;Normal;status;—;—
+Power Split;Psychic;status;—;—
+Power Swap;Psychic;status;—;—
+Power Trick;Psychic;status;—;—
+Power Trip;Dark;physical;20;100
+Power Whip;Grass;physical;120;85
+Power-Up Punch;Fighting;physical;40;100
+Precipice Blades;Ground;physical;120;85
+Present;Normal;physical;—;90
+Prismatic Laser;Psychic;special;160;100
+Protect;Normal;status;—;—
+Psybeam;Psychic;special;65;100
+Psyblade;Psychic;physical;80;100
+Psych Up;Normal;status;—;—
+Psychic;Psychic;special;90;100
+Psychic Fangs;Psychic;physical;85;100
+Psychic Noise;Psychic;special;75;100
+Psychic Terrain;Psychic;status;—;—
+Psycho Boost;Psychic;special;140;90
+Psycho Cut;Psychic;physical;70;100
+Psycho Shift;Psychic;status;—;100
+Psyshield Bash;Psychic;physical;70;90
+Psyshock;Psychic;special;80;100
+Psystrike;Psychic;special;100;100
+Psywave;Psychic;special;—;100
+Pulverizing Pancake;Normal;physical;210;—
+Punishment;Dark;physical;—;100
+Purify;Poison;status;—;—
+Pursuit;Dark;physical;40;100
+Pyro Ball;Fire;physical;120;90
+Quash;Dark;status;—;100
+Quick Attack;Normal;physical;40;100
+Quick Guard;Fighting;status;—;—
+Quiver Dance;Bug;status;—;—
+Rage;Normal;physical;20;100
+Rage Fist;Ghost;physical;50;100
+Rage Powder;Bug;status;—;—
+Raging Bull;Normal;physical;90;100
+Raging Fury;Fire;physical;120;100
+Rain Dance;Water;status;—;—
+Rapid Spin;Normal;physical;50;100
+Razor Leaf;Grass;physical;55;95
+Razor Shell;Water;physical;75;95
+Razor Wind;Normal;special;80;100
+Recover;Normal;status;—;—
+Recycle;Normal;status;—;—
+Reflect;Psychic;status;—;—
+Reflect Type;Normal;status;—;—
+Refresh;Normal;status;—;—
+Relic Song;Normal;special;75;100
+Rest;Psychic;status;—;—
+Retaliate;Normal;physical;70;100
+Return;Normal;physical;—;100
+Revelation Dance;Normal;special;90;100
+Revenge;Fighting;physical;60;100
+Reversal;Fighting;physical;—;100
+Revival Blessing;Normal;status;—;—
+Rising Voltage;Electric;special;70;100
+Roar;Normal;status;—;—
+Roar of Time;Dragon;special;150;90
+Rock Blast;Rock;physical;25;90
+Rock Climb;Normal;physical;90;85
+Rock Polish;Rock;status;—;—
+Rock Slide;Rock;physical;75;90
+Rock Smash;Fighting;physical;40;100
+Rock Throw;Rock;physical;50;90
+Rock Tomb;Rock;physical;60;95
+Rock Wrecker;Rock;physical;150;90
+Role Play;Psychic;status;—;—
+Rolling Kick;Fighting;physical;60;85
+Rollout;Rock;physical;30;90
+Roost;Flying;status;—;—
+Rototiller;Ground;status;—;—
+Round;Normal;special;60;100
+Ruination;Dark;special;1;90
+Sacred Fire;Fire;physical;100;95
+Sacred Sword;Fighting;physical;90;100
+Safeguard;Normal;status;—;—
+Salt Cure;Rock;physical;40;100
+Sand Attack;Ground;status;—;100
+Sand Tomb;Ground;physical;35;85
+Sandsear Storm;Ground;special;100;80
+Sandstorm;Rock;status;—;—
+Sappy Seed;Grass;physical;90;100
+Savage Spin-Out;Bug;;—;—
+Scald;Water;special;80;100
+Scale Shot;Dragon;physical;25;90
+Scary Face;Normal;status;—;100
+Scorching Sands;Ground;special;70;100
+Scratch;Normal;physical;40;100
+Screech;Normal;status;—;85
+Searing Shot;Fire;special;100;100
+Searing Sunraze Smash;Steel;physical;200;—
+Secret Power;Normal;physical;70;100
+Secret Sword;Fighting;special;85;100
+Seed Bomb;Grass;physical;80;100
+Seed Flare;Grass;special;120;85
+Seismic Toss;Fighting;physical;—;100
+Self-Destruct;Normal;physical;200;100
+Shadow Ball;Ghost;special;80;100
+Shadow Bone;Ghost;physical;85;100
+Shadow Claw;Ghost;physical;70;100
+Shadow Force;Ghost;physical;120;100
+Shadow Punch;Ghost;physical;60;∞
+Shadow Sneak;Ghost;physical;40;100
+Sharpen;Normal;status;—;—
+Shattered Psyche;Psychic;;—;—
+Shed Tail;Normal;status;—;—
+Sheer Cold;Ice;special;—;30
+Shell Side Arm;Poison;special;90;100
+Shell Smash;Normal;status;—;—
+Shell Trap;Fire;special;150;100
+Shelter;Steel;status;—;—
+Shift Gear;Steel;status;—;—
+Shock Wave;Electric;special;60;∞
+Shore Up;Ground;status;—;—
+Signal Beam;Bug;special;75;100
+Silk Trap;Bug;status;—;—
+Silver Wind;Bug;special;60;100
+Simple Beam;Normal;status;—;100
+Sing;Normal;status;—;55
+Sinister Arrow Raid;Ghost;physical;180;—
+Sizzly Slide;Fire;physical;90;100
+Sketch;Normal;status;—;—
+Skill Swap;Psychic;status;—;—
+Skitter Smack;Bug;physical;70;90
+Skull Bash;Normal;physical;130;100
+Sky Attack;Flying;physical;140;90
+Sky Drop;Flying;physical;60;100
+Sky Uppercut;Fighting;physical;85;90
+Slack Off;Normal;status;—;—
+Slam;Normal;physical;80;75
+Slash;Normal;physical;70;100
+Sleep Powder;Grass;status;—;75
+Sleep Talk;Normal;status;—;—
+Sludge;Poison;special;65;100
+Sludge Bomb;Poison;special;90;100
+Sludge Wave;Poison;special;95;100
+Smack Down;Rock;physical;50;100
+Smart Strike;Steel;physical;70;—
+Smelling Salts;Normal;physical;70;100
+Smog;Poison;special;30;70
+Smokescreen;Normal;status;—;100
+Snap Trap;Grass;physical;35;100
+Snarl;Dark;special;55;95
+Snatch;Dark;status;—;—
+Snipe Shot;Water;special;80;100
+Snore;Normal;special;50;100
+Snowscape;Ice;status;—;—
+Soak;Water;status;—;100
+Soft-Boiled;Normal;status;—;—
+Solar Beam;Grass;special;120;100
+Solar Blade;Grass;physical;125;100
+Sonic Boom;Normal;special;—;90
+Soul-Stealing 7-Star Strike;Ghost;physical;195;—
+Spacial Rend;Dragon;special;100;95
+Spark;Electric;physical;65;100
+Sparkling Aria;Water;special;90;100
+Sparkly Swirl;Fairy;special;90;100
+Spectral Thief;Ghost;physical;90;100
+Speed Swap;Psychic;status;—;—
+Spicy Extract;Grass;status;—;∞
+Spider Web;Bug;status;—;—
+Spike Cannon;Normal;physical;20;100
+Spikes;Ground;status;—;—
+Spiky Shield;Grass;status;—;—
+Spin Out;Steel;physical;100;100
+Spirit Break;Fairy;physical;75;100
+Spirit Shackle;Ghost;physical;80;100
+Spit Up;Normal;special;—;100
+Spite;Ghost;status;—;100
+Splash;Normal;status;—;—
+Splintered Stormshards;Rock;physical;190;—
+Splishy Splash;Water;special;90;100
+Spore;Grass;status;—;100
+Spotlight;Normal;status;—;—
+Springtide Storm;Fairy;special;100;80
+Stealth Rock;Rock;status;—;—
+Steam Eruption;Water;special;110;95
+Steamroller;Bug;physical;65;100
+Steel Beam;Steel;special;140;95
+Steel Roller;Steel;physical;130;100
+Steel Wing;Steel;physical;70;90
+Sticky Web;Bug;status;—;—
+Stockpile;Normal;status;—;—
+Stoked Sparksurfer;Electric;special;175;—
+Stomp;Normal;physical;65;100
+Stomping Tantrum;Ground;physical;75;100
+Stone Axe;Rock;physical;65;90
+Stone Edge;Rock;physical;100;80
+Stored Power;Psychic;special;20;100
+Storm Throw;Fighting;physical;60;100
+Strange Steam;Fairy;special;90;95
+Strength;Normal;physical;80;100
+Strength Sap;Grass;status;—;100
+String Shot;Bug;status;—;95
+Struggle;Normal;physical;50;—
+Struggle Bug;Bug;special;50;100
+Stuff Cheeks;Normal;status;—;—
+Stun Spore;Grass;status;—;75
+Submission;Fighting;physical;80;80
+Substitute;Normal;status;—;—
+Subzero Slammer;Ice;;—;—
+Sucker Punch;Dark;physical;70;100
+Sunny Day;Fire;status;—;—
+Sunsteel Strike;Steel;physical;100;100
+Super Fang;Normal;physical;—;90
+Supercell Slam;Electric;physical;100;95
+Superpower;Fighting;physical;120;100
+Supersonic;Normal;status;—;55
+Supersonic Skystrike;Flying;;—;—
+Surf;Water;special;90;100
+Surging Strikes;Water;physical;25;100
+Swagger;Normal;status;—;85
+Swallow;Normal;status;—;—
+Sweet Kiss;Fairy;status;—;75
+Sweet Scent;Normal;status;—;100
+Swift;Normal;special;60;∞
+Switcheroo;Dark;status;—;100
+Swords Dance;Normal;status;—;—
+Synchronoise;Psychic;special;120;100
+Synthesis;Grass;status;—;—
+Syrup Bomb;Grass;special;—;—
+Tachyon Cutter;Steel;special;50;∞
+Tackle;Normal;physical;40;100
+Tail Glow;Bug;status;—;—
+Tail Slap;Normal;physical;25;85
+Tail Whip;Normal;status;—;100
+Tailwind;Flying;status;—;—
+Take Down;Normal;physical;90;85
+Take Heart;Psychic;status;—;—
+Tar Shot;Rock;status;—;100
+Taunt;Dark;status;—;100
+Tearful Look;Normal;status;—;—
+Teatime;Normal;status;—;—
+Techno Blast;Normal;special;120;100
+Tectonic Rage;Ground;;—;—
+Teeter Dance;Normal;status;—;100
+Telekinesis;Psychic;status;—;—
+Teleport;Psychic;status;—;—
+Temper Flare;Fire;physical;75;100
+Tera Blast;Normal;special;80;100
+Tera Starstorm;Normal;special;120;100
+Terrain Pulse;Normal;special;50;100
+Thief;Dark;physical;60;100
+Thousand Arrows;Ground;physical;90;100
+Thousand Waves;Ground;physical;90;100
+Thrash;Normal;physical;120;100
+Throat Chop;Dark;physical;80;100
+Thunder;Electric;special;110;70
+Thunder Cage;Electric;special;80;90
+Thunder Fang;Electric;physical;65;95
+Thunder Punch;Electric;physical;75;100
+Thunder Shock;Electric;special;40;100
+Thunder Wave;Electric;status;—;90
+Thunderbolt;Electric;special;90;100
+Thunderclap;Electric;special;70;100
+Thunderous Kick;Fighting;physical;90;100
+Tickle;Normal;status;—;100
+Tidy Up;Normal;status;—;—
+Topsy-Turvy;Dark;status;—;—
+Torch Song;Fire;special;80;100
+Torment;Dark;status;—;100
+Toxic;Poison;status;—;90
+Toxic Spikes;Poison;status;—;—
+Toxic Thread;Poison;status;—;100
+Trailblaze;Grass;physical;50;100
+Transform;Normal;status;—;—
+Tri Attack;Normal;special;80;100
+Trick;Psychic;status;—;100
+Trick Room;Psychic;status;—;—
+Trick-or-Treat;Ghost;status;—;100
+Triple Arrows;Fighting;physical;90;100
+Triple Axel;Ice;physical;20;90
+Triple Dive;Water;physical;30;95
+Triple Kick;Fighting;physical;10;90
+Trop Kick;Grass;physical;70;100
+Trump Card;Normal;special;—;∞
+Twin Beam;Psychic;special;40;100
+Twineedle;Bug;physical;25;100
+Twinkle Tackle;Fairy;;—;—
+Twister;Dragon;special;40;100
+U-turn;Bug;physical;70;100
+Upper Hand;Fighting;physical;65;100
+Uproar;Normal;special;90;100
+V-create;Fire;physical;180;95
+Vacuum Wave;Fighting;special;40;100
+Veevee Volley;Normal;physical;—;∞
+Venom Drench;Poison;status;—;100
+Venoshock;Poison;special;65;100
+Victory Dance;Fighting;status;—;—
+Vine Whip;Grass;physical;45;100
+Vise Grip;Normal;physical;55;100
+Vital Throw;Fighting;physical;70;∞
+Volt Switch;Electric;special;70;100
+Volt Tackle;Electric;physical;120;100
+Wake-Up Slap;Fighting;physical;70;100
+Water Gun;Water;special;40;100
+Water Pledge;Water;special;80;100
+Water Pulse;Water;special;60;100
+Water Shuriken;Water;special;15;100
+Water Sport;Water;status;—;—
+Water Spout;Water;special;150;100
+Waterfall;Water;physical;80;100
+Wave Crash;Water;physical;120;100
+Weather Ball;Normal;special;50;100
+Whirlpool;Water;special;35;85
+Whirlwind;Normal;status;—;—
+Wicked Blow;Dark;physical;75;100
+Wicked Torque;Dark;physical;80;100
+Wide Guard;Rock;status;—;—
+Wild Charge;Electric;physical;90;100
+Wildbolt Storm;Electric;special;100;80
+Will-O-Wisp;Fire;status;—;85
+Wing Attack;Flying;physical;60;100
+Wish;Normal;status;—;—
+Withdraw;Water;status;—;—
+Wonder Room;Psychic;status;—;—
+Wood Hammer;Grass;physical;120;100
+Work Up;Normal;status;—;—
+Worry Seed;Grass;status;—;100
+Wrap;Normal;physical;15;90
+Wring Out;Normal;special;—;100
+X-Scissor;Bug;physical;80;100
+Yawn;Normal;status;—;—
+Zap Cannon;Electric;special;120;50
+Zen Headbutt;Psychic;physical;80;90
+Zing Zap;Electric;physical;80;100
+Zippy Zap;Electric;physical;50;100

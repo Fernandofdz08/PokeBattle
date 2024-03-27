@@ -33,13 +33,17 @@ def showdown(request):
 
 def clases_pokemon(request):
     pkm1 = input("Qué pokemon quieres?")
-    #pkm2 = input("Qué pokemon quieres?")
+    pkm2 = input("Qué pokemon quieres?")
     #pkm3 = input("Qué pokemon quieres?")
-    r = classpkm.__main__(pkm1) #, pkm2, pkm3)
+    r = classpkm.__main__(pkm1, pkm2) #, pkm2, pkm3)
     return HttpResponse(r)
 
 def ataques_pokemon(request):
-    nombre_ataques = [], tipo_ataques = [], especial_fisico = [], precision_ataques = []
+    nombre_ataques = []
+    tipo_ataques = []
+    especial_fisico = []
+    potencia = []
+    precision_ataques = []
     dict_ataque = {}
     r = requests.get("https://pokemondb.net/move/all")
     if r.status_code == 200:
@@ -54,13 +58,26 @@ def ataques_pokemon(request):
                 nombre_ataques.append(nombre_ataque)
                 tipo_ataque = celdas[1].text.strip()
                 tipo_ataques.append(tipo_ataque)
-                ataque_spe_phy = soup.find('td', attrs={'data-sort-value': True})
-                valor_tipo_ataque = ataque_spe_phy['data-sort-value']
-                especial_fisico.append(valor_tipo_ataque)
+                ataque_spe_phy = celdas[2]['data-sort-value']
+                #ataque_spe_phy = soup.find('td', attrs={'data-sort-value': True})
+                #valor_tipo_ataque = ataque_spe_phy['data-sort-value']
+                especial_fisico.append(ataque_spe_phy)
+                potencia = celdas[3].text.strip()
+                potencia.append(potencia)
                 precision = celdas[4].text.strip()
                 precision_ataques.append(precision)
-    
-    dict_ataque = dict(zip(nombre_ataques, tipo_ataques, especial_fisico, precision_ataques))
-    print(dict_ataque)
                 
+            
+    dict_ataque = dict(
+        zip(
+            ['nombre_ataques', 'tipo_ataques', 'especial_fisico', 'potencia', 'precision_ataques'],  # Claves
+            [nombre_ataques, tipo_ataques, especial_fisico, potencia, precision_ataques]  # Valores
+        )
+    )
+
+    df = pd.DataFrame(dict_ataque)
+
+    df.to_csv(os.path.join('.','Pokemon - Ataques.csv'), index=True, sep=';')
+
+
     return HttpResponse(r.text)
