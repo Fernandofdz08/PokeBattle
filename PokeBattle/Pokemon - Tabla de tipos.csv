@@ -1,4 +1,4 @@
-,Bug,apply,Dark,apply,Dragon,apply,Electric,apply,Fairy,apply,Fighting,apply,Fire,apply,Flying,apply,Ghost,apply,Grass,apply,Ground,apply,Ice,apply,Normal,apply,Poison,apply,Psychic,apply,Rock,apply,Steel,apply,Water,apply
+AT/DEF,Bug,apply,Dark,apply,Dragon,apply,Electric,apply,Fairy,apply,Fighting,apply,Fire,apply,Flying,apply,Ghost,apply,Grass,apply,Ground,apply,Ice,apply,Normal,apply,Poison,apply,Psychic,apply,Rock,apply,Steel,apply,Water,apply
 Bug,1,FALSE,2,TRUE,1,FALSE,1,FALSE,0.5,TRUE,0.5,TRUE,0.5,TRUE,0.5,TRUE,0.5,TRUE,2,TRUE,1,FALSE,1,FALSE,1,FALSE,0.5,TRUE,2,TRUE,1,FALSE,0.5,TRUE,1,TRUE
 Dark,1,FALSE,0.5,TRUE,1,FALSE,1,FALSE,0.5,TRUE,0.5,TRUE,1,FALSE,1,FALSE,2,TRUE,1,FALSE,1,FALSE,1,FALSE,1,FALSE,1,FALSE,2,TRUE,1,FALSE,1,FALSE,1,FALSE
 Dragon,1,FALSE,1,FALSE,2,TRUE,1,FALSE,0,TRUE,1,FALSE,1,FALSE,1,FALSE,1,FALSE,1,FALSE,1,FALSE,1,FALSE,1,FALSE,1,FALSE,1,FALSE,1,FALSE,0.5,TRUE,1,FALSE

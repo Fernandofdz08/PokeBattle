@@ -29,7 +29,30 @@ class Pokemon:
     def __init__(self, **kwargs):
         for key, value in kwargs.items():
             setattr(self, key, value)
-    
+
+
+
+def read_type_effectivity(tipo_at, tipo1_def, tipo2_def):
+    csv_path = os.path.abspath(os.path.join(os.getcwd(), "Pokemon - Tabla de tipos.csv"))
+
+    with open(csv_path, 'r') as multiplicador:
+        df = pd.read_csv(multiplicador)
+        valor_eficacia = df.loc[tipo_at , tipo1_def]
+        print(f"El valor de la eficacia es {valor_eficacia}")
+        ###cabecera = df.columns.tolist()
+        ###fila_leida = df.loc[df['AT/DEF'] == tipo_at].values[0]
+
+
+
+
+
+
+    return csv_path
+
+    pass
+
+
+
 def damage(allies, enemies, caracteristicas_ataque):
     # Detectar si el ataque es de tipo Físico o Especial
     if caracteristicas_ataque["especial_fisico"] == "physical":
@@ -42,7 +65,9 @@ def damage(allies, enemies, caracteristicas_ataque):
     # si el ataque es del mismo tipo que el pokemon que lo lanza oma valor 1.5, si el ataque es de un tipo diferente al del pokemon que lo lanza toma un valor de 1. 
     
     if allies.Is_Teratype == True: 
-        if allies.type1 == allies.teratype and allies.type2 == allies.teratype:
+        if allies.type1 == allies.teratype:
+            Bonif = 2
+        elif allies.type2 == allies.teratype:
             Bonif = 2
         elif allies.type1 == allies.teratype or allies.type2 == allies.teratype:
             Bonif = 1.5
@@ -54,7 +79,8 @@ def damage(allies, enemies, caracteristicas_ataque):
         
 
     # La efectividad vendrá dada por la tabla de tipos, por el momento, por pruebas se establece en 1
-    Efectivity = 1
+    Effectivity = read_type_effectivity(caracteristicas_ataque["tipo_ataques"], enemies.type1, enemies.type2)
+    print(Effectivity)
     # La variación vendrá dada por un número aleatorio entre 85 y 100
     Variation =  random.randint(85,100)
     # Nivel del pokemon, por defecto, todos en 100
@@ -63,7 +89,7 @@ def damage(allies, enemies, caracteristicas_ataque):
     Power = int(caracteristicas_ataque["potencia"])
     Defense = int(enemies.Def)
 
-    Daño = 0.01 * Bonif * Efectivity * Variation *(((0.2 * Level + 1) * Attack * Power) / (25 * Defense) + 2)
+    Daño = 0.01 * Bonif * Effectivity * Variation *(((0.2 * Level + 1) * Attack * Power) / (25 * Defense) + 2)
     print(f"{allies.name} ha hecho un total de daño a {enemies.name} de {Daño} PS.")
     enemies.PS -= Daño
     print(f"Los PS del pokemon {enemies.name} son {enemies.PS}")
@@ -77,7 +103,7 @@ def damage(allies, enemies, caracteristicas_ataque):
 def batalla_pokemon(pkm1, pkm2, ataques):
     print(f"Va a comenzar la batalla pokemon entre  {pkm1.name} y {pkm2.name}")
     print(f"Es el turno de {pkm1.name}")
-    while pkm1.PS > 0 and pkm2.PS > 0:
+    while pkm1.PS > 0 or pkm2.PS > 0:
         print(f"El pokemon {pkm1.name} tiene {pkm1.PS} PS y el pokemon {pkm2.name} tiene {pkm2.PS} PS")
         print("Es el turno de {pkm1.name}")
         print("Elige un ataque: ")
