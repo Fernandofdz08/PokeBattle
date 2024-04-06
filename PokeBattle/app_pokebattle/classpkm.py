@@ -37,10 +37,15 @@ def read_type_effectivity(tipo_at, tipo1_def, tipo2_def):
 
     with open(csv_path, 'r') as multiplicador:
         df = pd.read_csv(multiplicador)
-        valor_eficacia = df.loc[tipo_at , tipo1_def]
-        print(f"El valor de la eficacia es {valor_eficacia}")
+        valor_eficacia1 = df.loc[tipo_at , tipo1_def]
+        print(f"El valor de la eficacia es {valor_eficacia1}")
+        valor_eficacia2 = df.loc[tipo_at , tipo2_def]
+        print(f"El valor de la eficacia es {valor_eficacia2}")
         ###cabecera = df.columns.tolist()
         ###fila_leida = df.loc[df['AT/DEF'] == tipo_at].values[0]
+        ## valor_eficacia1 = 0
+        ## valor_eficacia2 = 2
+        # valor_e1 * valor_e2 = int
 
 
 
@@ -60,6 +65,9 @@ def damage(allies, enemies, caracteristicas_ataque):
     if caracteristicas_ataque["especial_fisico"] == "special":
         Attack = int(allies.AtEsp)
 
+
+    
+        
     # Valor de bonificación, si esta teracristalizado, si tanto su tipo original como su teratipo coinciden con el tipo del ataque
     # la bonificación es de 2, si solo coincide su tipo original, la bonificación es de 1.5, si no coincide ninguno, la bonificación es de 1, si no esta teracristalizado
     # si el ataque es del mismo tipo que el pokemon que lo lanza oma valor 1.5, si el ataque es de un tipo diferente al del pokemon que lo lanza toma un valor de 1. 
@@ -88,6 +96,7 @@ def damage(allies, enemies, caracteristicas_ataque):
 
     Power = int(caracteristicas_ataque["potencia"])
     Defense = int(enemies.Def)
+        #Añadir dependiendo del ataque usado, si es AT == Def y si es ATESP == DefEsp
 
     Daño = 0.01 * Bonif * Effectivity * Variation *(((0.2 * Level + 1) * Attack * Power) / (25 * Defense) + 2)
     print(f"{allies.name} ha hecho un total de daño a {enemies.name} de {Daño} PS.")
