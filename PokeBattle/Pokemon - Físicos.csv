@@ -1,6 +1,6 @@
 name,type1,type2,PS,At,Def,AtEsp,DefEsp,Vel,Hability,Object,At1,TypeAt1,At2,TypeAt2,At3,TypeAt3,At4,TypeAt4,Teratype,Is_Teratype
-Deoxys,Psíquico,null,241,504,77,356,76,399,Presión,Banda Focus,Zen Headbutt,phisical,Fire Punch,Fuego,Drain Punch,Lucha,Knock Off,Siniestro,Psíquico,FALSE
-Regigigas,Normal,null,424,460,257,174,256,236,Inicio Lento,,Facade,Normal,Knockoff,Siniestro,Thunder Wave,Electrico,Protect,Normal,Normal,FALSE
+Deoxys,Psychic,no,241,504,77,356,76,399,Presión,Banda Focus,Zen Headbutt,phisical,Fire Punch,Fuego,Drain Punch,Lucha,Knock Off,Siniestro,Psíquico,FALSE
+Regigigas,Normal,no,424,460,257,174,256,236,Inicio Lento,,Facade,Normal,Knock Off,Siniestro,Thunder Wave,Electrico,Protect,Normal,Normal,FALSE
 Rayquaza,Dragón,Volador,352,438,216,286,216,289,Esclusa de Aire,,Enfado,,Ascenso Draco,,Velocidad Extrema,,Danza Dragón,,,
 Zekrom,Dragón,Eléctrico,341,438,277,236,236,279,Terravoltaje,,Enfado,,Ataque Fulgor,,Cabezazo Zen,,Danza Dragón,,,
 Haxorus,Dragón,null,294,432,216,124,176,293,Rompemoldes,,Garra Dragón,,Cabeza de Hierro,,(Falso Tortazo),,Danza Dragón,,,

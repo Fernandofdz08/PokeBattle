@@ -81,3 +81,36 @@ def ataques_pokemon(request):
 
 
     return HttpResponse(r.text)
+
+def effectivity(request):
+    
+
+    
+
+    def read_type_effectivity(tipo_at, tipo1_def, tipo2_def):
+        csv_path = os.path.abspath(os.path.join(os.getcwd(), "Pokemon - Tabla de tipos.csv"))
+
+        
+        with open(csv_path, 'r') as multiplicador:
+            df = pd.read_csv(multiplicador)
+
+            cabecera = df.columns.tolist()
+            fila_leida = df.loc[df['AT/DEF'] == tipo_at]
+            valor_eficacia1 = fila_leida[tipo1_def].iloc[0]
+            valor_eficacia2 = fila_leida[tipo2_def].iloc[0]
+            effectivity = valor_eficacia1 * valor_eficacia2
+            print(effectivity)
+            
+
+
+
+
+
+
+        return csv_path
+
+        pass
+    
+    r = read_type_effectivity('Bug', 'Dark', 'Dragon')
+
+    return HttpResponse(r)

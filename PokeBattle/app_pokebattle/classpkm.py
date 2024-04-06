@@ -34,27 +34,23 @@ class Pokemon:
 
 def read_type_effectivity(tipo_at, tipo1_def, tipo2_def):
     csv_path = os.path.abspath(os.path.join(os.getcwd(), "Pokemon - Tabla de tipos.csv"))
-
+    print(tipo1_def)
+    print(tipo2_def)
+        
     with open(csv_path, 'r') as multiplicador:
-        df = pd.read_csv(multiplicador)
-        valor_eficacia1 = df.loc[tipo_at , tipo1_def]
-        print(f"El valor de la eficacia es {valor_eficacia1}")
-        valor_eficacia2 = df.loc[tipo_at , tipo2_def]
-        print(f"El valor de la eficacia es {valor_eficacia2}")
-        ###cabecera = df.columns.tolist()
-        ###fila_leida = df.loc[df['AT/DEF'] == tipo_at].values[0]
-        ## valor_eficacia1 = 0
-        ## valor_eficacia2 = 2
-        # valor_e1 * valor_e2 = int
+            df = pd.read_csv(multiplicador)
 
+            cabecera = df.columns.tolist()
+            fila_leida = df.loc[df['AT/DEF'] == tipo_at]
+            valor_eficacia1 = fila_leida[tipo1_def].iloc[0]
+            if tipo2_def != "no":
+                valor_eficacia2 = fila_leida[tipo2_def].iloc[0]
+            else:
+                valor_eficacia2 = 1
+            effectivity = valor_eficacia1 * valor_eficacia2
+            
+    return effectivity       
 
-
-
-
-
-    return csv_path
-
-    pass
 
 
 
@@ -65,7 +61,7 @@ def damage(allies, enemies, caracteristicas_ataque):
     if caracteristicas_ataque["especial_fisico"] == "special":
         Attack = int(allies.AtEsp)
 
-
+    
     
         
     # Valor de bonificación, si esta teracristalizado, si tanto su tipo original como su teratipo coinciden con el tipo del ataque
@@ -84,10 +80,11 @@ def damage(allies, enemies, caracteristicas_ataque):
     else: 
         print("El pokemon no es teratipo")
         Bonif = 1
-        
-
+    print(caracteristicas_ataque["tipo_ataque"])
+    print(enemies.type1)
+    print(enemies.type2)
     # La efectividad vendrá dada por la tabla de tipos, por el momento, por pruebas se establece en 1
-    Effectivity = read_type_effectivity(caracteristicas_ataque["tipo_ataques"], enemies.type1, enemies.type2)
+    Effectivity = read_type_effectivity(caracteristicas_ataque["tipo_ataque"], enemies.type1, enemies.type2)
     print(Effectivity)
     # La variación vendrá dada por un número aleatorio entre 85 y 100
     Variation =  random.randint(85,100)
@@ -126,7 +123,7 @@ def batalla_pokemon(pkm1, pkm2, ataques):
         print(f"El ataque_elegido es {ataque_elegido}")
 
         dict_caracteristicas_ataque = read_at_type_csv(ataque_elegido, ataques)
-
+        print(dict_caracteristicas_ataque)
         damage(pkm1, pkm2, dict_caracteristicas_ataque)
 
 
